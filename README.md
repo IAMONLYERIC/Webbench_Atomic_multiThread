@@ -1,6 +1,9 @@
 version: WebBench 1.0
-Describle:这个版本的WebBench
-源自于基本版本的WebBench(https://github.com/EZLippi/WebBench).
+
+
+Describle:这个版本的WebBench源自于基本版本的WebBench(https://github.com/EZLippi/WebBench).
+
+
 EZLippi的版本由c语言,进程和进程件通信的管道组成,我的这个版本将原作者的WebBench更改为c++,线程和基于CAS的无锁机制,起初想做一个线上的网站压测工具,涉及资源问题,故而使用线程。
 
 使用参数:
