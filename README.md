@@ -5,16 +5,26 @@ EZLippi的版本由c语言,进程和进程件通信的管道组成,我的这个�
 
 使用参数:
 "webbench [option]... URL\n"
-	* "  -f|--force               Don't wait for reply from server.\n"
-	* "  -r|--reload              Send reload request - Pragma: no-cache.\n"
-	* "  -t|--time <sec>          Run benchmark for <sec> seconds. Default 30.\n"
-	* "  -p|--proxy <server:port> Use proxy server for request.\n"
-	* "  -c|--clients <n>         Run <n> HTTP clients at once. Default 1.MAX 100\n"
-	* "  -2|--http11              Use HTTP/1.1 protocol.\n"
-	* "  --get                    Use GET request method.\n"
-	* "  --head                   Use HEAD request method.\n"
-	* "  -?|-h|--help             This information.\n"
-	* "  -V|--version             Display program version.\n"
+
+* "  -f|--force               Don't wait for reply from server.\n"
+ 
+* "  -r|--reload              Send reload request - Pragma: no-cache.\n"
+
+* "  -t|--time <sec>          Run benchmark for <sec> seconds. Default 30.\n"
+	
+* "  -p|--proxy <server:port> Use proxy server for request.\n"
+	
+* "  -c|--clients <n>         Run <n> HTTP clients at once. Default 1.MAX 100\n"
+	
+* "  -2|--http11              Use HTTP/1.1 protocol.\n"
+	
+* "  --get                    Use GET request method.\n"
+	
+* "  --head                   Use HEAD request method.\n"
+	
+* "  -?|-h|--help             This information.\n"
+	
+* "  -V|--version             Display program version.\n"
 
 目前-p没有参数测试,其余参数都正确.
 
